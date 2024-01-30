@@ -66,6 +66,10 @@
               "browserTarget": "my-first-project:build:development"
             }
           },
+          "options":{
+            "port": 4200,
+            "open": true
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
