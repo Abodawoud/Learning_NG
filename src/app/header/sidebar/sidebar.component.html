@@ -1,0 +1,25 @@
+<div
+  id="drawer-navigation"
+  class="fixed left-0 top-0 z-40 h-screen w-64 -translate-x-full overflow-y-auto bg-white p-4 transition-transform dark:bg-gray-800 md:hidden"
+  tabindex="-1"
+  aria-labelledby="drawer-navigation-label"
+>
+  <h5
+    id="drawer-navigation-label"
+    class="text-base font-semibold uppercase text-gray-500 dark:text-gray-400"
+  >
+    Menu
+  </h5>
+  <div class="overflow-y-auto py-4">
+    <ul class="space-y-2 font-medium">
+      <li *ngFor="let link of sideBarLinks">
+        <a
+          href="#"
+          class="group flex items-center rounded-lg p-2 text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+        >
+          <span class="ms-3">{{ link }}</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -67,7 +67,7 @@
             }
           },
           "options":{
-            "port": 4200,
+            "port": 5000,
             "open": true
           },
           "defaultConfiguration": "development"
