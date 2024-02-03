@@ -1,4 +1,6 @@
-<ul class="mt-0 flex space-x-8 p-0 font-medium rtl:space-x-reverse">
+<ul
+  class="mt-0 flex items-center space-x-8 p-0 font-medium rtl:space-x-reverse"
+>
   <li *ngFor="let link of defaultNavBarLinks">
     <a
       href="#"
@@ -6,5 +8,8 @@
       aria-current="page"
       >{{ link }}</a
     >
+  </li>
+  <li>
+    <app-darklightbtn></app-darklightbtn>
   </li>
 </ul>
